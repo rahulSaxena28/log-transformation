@@ -101,22 +101,21 @@ np.log1p(x)  # same as log(1 + x), safe for zero values
 ### Before Transformation:
 | Model               | Accuracy |
 |--------------------|----------|
-| Logistic Regression | ~XX%     |
-| Decision Tree       | ~XX%     |
+| Logistic Regression | ~Accurscy of lr 0.6480446927374302 |
+| Decision Tree       | ~Accurscy of DT 0.6815642458100558 |
 
 ### After Log Transformation (both features):
 | Model               | Accuracy |
 |--------------------|----------|
-| Logistic Regression | ~XX%     |
-| Decision Tree       | ~XX%     |
+| Logistic Regression |Accurscy of lr 0.681564245810055 |
+| Decision Tree       | ~Accurscy of DT 0.6703910614525139 |
 
 ### After Selective Transformation (only `Fare`):
 | Model               | Accuracy |
 |--------------------|----------|
-| Logistic Regression | ~XX%     |
-| Decision Tree       | ~XX%     |
+| Logistic Regression | ~Accurscy of lr 0.6703910614525139 |
+| Decision Tree       | ~Accurscy of DT 0.681564245810055  |
 
-> 💡 Fill in the actual accuracy values from your notebook output!
 
 ---
 
